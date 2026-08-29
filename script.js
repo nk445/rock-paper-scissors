@@ -1,3 +1,12 @@
+const buttons = document.getElementById("buttons");
+
+function handleButtonClick(event) {
+    console.log(`${event.target.id} button clicked!`);
+}
+
+buttons.addEventListener("click", handleButtonClick);
+
+
 playGame();
 
 // Get random output from 0 to 1
