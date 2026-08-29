@@ -80,9 +80,9 @@ function playGame() {
     }
 
     // Play 5 rounds of game
-    for (let i = 0; i < 5; ++i) {
-        playRound();
-    }
+    // for (let i = 0; i < 5; ++i) {
+    //     playRound();
+    // }
 
     if (computerScore > humanScore) {
         console.log("You lost the game!");
