@@ -60,6 +60,8 @@ function playRound(humanChoice) {
     // write win/loss logic based on human choice
     // compare each outcome with 3 possible computer outcomes
     // Print round outcome and increment winner score if necessary
+    const humanScoreDisplay = document.getElementById("humanScore");
+    const computerScoreDisplay = document.getElementById("computerScore");
     if (humanChoice === "rock") {
         if (computerChoice === "rock") {
             console.log("It's a draw!");
@@ -100,4 +102,6 @@ function playRound(humanChoice) {
             console.log("It's a draw!");
         }
     }
+
+   
 }
