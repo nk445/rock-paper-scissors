@@ -8,7 +8,7 @@ let computerScore = 0;
 let humanScore = 0;
 
 function handleButtonClick(event) {
-    console.log(`${event.target.id} button clicked!`);
+    //console.log(`${event.target.id} button clicked!`);
     playRound(event.target.id);
     if (humanScore >= 5) {
         winnerDisplay.textContent = "You Win!";
